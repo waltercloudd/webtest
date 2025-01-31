@@ -28,7 +28,7 @@ nav .logo {
     color:  #ff9f38;
     flex-grow: 1;
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 375px) {
     .header {
         flex-direction: column;
         min-height: 10vh;
@@ -60,7 +60,7 @@ nav .logo {
     font-size: 6rem;
     margin-top: 30px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
     .banner h1 {
         font-size: 3rem;
         flex-direction: column;
@@ -92,7 +92,7 @@ nav .logo {
     position: relative;
     margin-top: -5rem;
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 375px) {
     .content {
         padding: 20px;
         font-size: 1rem;
@@ -151,7 +151,7 @@ footer .picmain {
 footer p:last-child {
     padding-bottom: 0px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 375px) {
     footer {
         flex-direction: column;
         padding: 10px 50px 10px 50px;
